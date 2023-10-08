@@ -145,7 +145,6 @@ body {
   letter-spacing: 60px;
   letter-spacing: 30px;
   text-align: right;
-  text-align: right;
   text-transform: uppercase;
 }
 
@@ -162,7 +161,7 @@ body {
 .cover__description-text {
   position: absolute; 
   right: 305px;
-  bottom: 60px;
+  bottom: 40px;
   margin-right: 78px;
   color: #FFF;
   font-family: Raleway;
@@ -172,12 +171,12 @@ body {
   line-height: 28px;
   text-align: end;
   text-transform: uppercase;
-  word-spacing: 25px;
+  word-spacing: 18px;
 }
 
 .bet-button { 
   position: absolute;
-  bottom: 48px;
+  bottom: 30px;
   margin-bottom: auto;
   border: 1px solid #FFF;
   padding: 12px 32px;
@@ -193,6 +192,8 @@ body {
 
 .lots {
   padding: 181px 50px;
+  position: relative;
+  top: 20px;
 }
 
 .lots_heading {
@@ -208,13 +209,13 @@ body {
 
 .lots_card-list {
   display: flex;
-  flex-direction: wrap;
+  flex-wrap: wrap;
   gap: 25px;
 }
 
 .lots_card-list-item {
   display: flex;
-  flex-direction: wrap;
+  flex-wrap: wrap;
   width: 430px;
   height: 450px;
 }
@@ -326,7 +327,7 @@ body {
 
 .about_logo {
   position: relative;
-  top: 53px;
+  top: 75px;
   width: 240px;
   height: 240px;
   margin: 0 95px;
@@ -342,7 +343,7 @@ body {
 
 .about_column-right {
 position: relative;
-top: 53px;
+top: 75px;
 display: flex;
 flex-direction: column;
 align-items: start;
@@ -377,7 +378,8 @@ align-items: start;
  justify-content: space-between;
  height: 97px;
  padding: 55px 50px 90px;
-
+ position: relative;
+ top: 20px;
 }
 
 .footer_address {
