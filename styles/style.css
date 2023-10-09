@@ -341,7 +341,6 @@ body {
 }
 
 .lots__look-more-link {
-  position: absolute;
   position: relative;
   bottom: 20px;
   padding: 30px 40px;
@@ -453,7 +452,6 @@ align-items: start;
   font-size: 18px;
   font-style: normal;
   line-height: normal;
-  text-align: center;
   text-align: center;
   list-style-type: none;
 }
